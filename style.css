@@ -1,0 +1,163 @@
+/*
+#dadada
+#0040ff
+*/
+
+button.buy-btn{
+    background-color: #0040ff;
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+img.img-logo{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0;
+}
+
+div.welcome{
+    background-color: #dadada;
+    margin-bottom: 0;
+}
+
+.col-sm-2,
+div.pics{
+    padding: 0;
+    overflow: hidden !important;
+    background-color: black;
+}
+
+img.colors{
+    height: 200px;
+    width: 200px;
+    margin-left: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p.icolors{
+    text-align: center;
+}
+
+p.black{
+    color: black;
+    text-shadow: 0 0 10px white;
+}
+
+p.white{
+    color: white;
+}
+
+p.red{
+    color: red;
+}
+
+p.yellow{
+    color: yellow;
+}
+
+p.blue{
+    color: cornflowerblue;
+}
+
+p.coral{
+    color: tomato;
+}
+
+div.booking{
+   background-color: black; 
+   padding: 4rem;
+}
+
+button.booker{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #9416e1;
+    border: none;
+    width: 25%;
+}
+
+img.modpic{
+    width: 256px;
+    height: 256px;
+}
+
+button.blackbtn{
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+button.whitebtn{
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+button.redbtn{
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+button.bluebtn{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+button.yellowbtn{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+button.coralbtn{
+    background-color: tomato;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+div.color-panel{
+    margin-left: 0.5rem;
+}
+
+button.capacity{
+    margin-top: 0.33rem;
+    background-color: white;
+    border: 1px solid #9416e1;
+}
+
+div.price-panel{
+    margin: auto;
+    display: block;
+}

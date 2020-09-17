@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>iPhone XR</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand img-logo-a" href="#">
+            <img class="img-logo" src="src/logo.png" alt="apple">
+        </a>
+        <a class="navbar-brand" href="#">iPhone XR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Colours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tech Specs</a>
+            </li>
+            <li class="nav-item">
+                <button class="buy-btn">Buy Now!</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron jumbotron-fluid welcome">
+        <div class="container">
+          <h1 class="display-4">iPhone XR</h1>
+          <p class="lead">Brilliant. In every way. Make room for color.</p>
+        </div>
+      </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="src/7.png" class="d-block w-100" alt="iPhoneXR">
+              </div>
+              <div class="carousel-item">
+                <img src="src/8.png" class="d-block w-100" alt="iPhoneXR">
+              </div>
+              <div class="carousel-item">
+                <img src="src/9.png" class="d-block w-100" alt="iPhoneXR">
+              </div>
+              <div class="carousel-item">
+                <img src="src/10.png" class="d-block w-100" alt="iPhoneXR">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
+      <div class="container-fluid pics">
+          <div class="row">
+              <div class="col-sm-2" col>
+                  <img class="colors" src="src/1.png" alt="iPhoneXR">
+                  <p class="icolors black">Black</p>
+              </div>
+              <div class="col-sm-2">
+                <img class="colors" src="src/2.png" alt="iPhoneXR">
+                <p class="icolors white">White</p>
+            </div>
+            <div class="col-sm-2">
+                <img class="colors" src="src/3.png" alt="iPhoneXR">
+                <p class="icolors red">(Product) Red</p>
+            </div>
+            <div class="col-sm-2">
+              <img class="colors" src="src/4.png" alt="iPhoneXR">
+              <p class="icolors blue">Blue</p>
+          </div>
+          <div class="col-sm-2">
+            <img class="colors" src="src/5.png" alt="iPhoneXR">
+            <p class="icolors yellow">Yellow</p>
+        </div>
+        <div class="col-sm-2">
+          <img class="colors" src="src/6.png" alt="iPhoneXR">
+          <p class="icolors coral">Coral</p>
+      </div>
+          </div>
+      </div>
+      <!-- Button trigger modal -->
+      <div class="container-fluid booking">
+        <button type="button" class="btn btn-primary booker" data-toggle="modal" data-target="#exampleModal">
+          Build Yours
+        </button>
+      </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">iPhone XR</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row color-panel">
+          <div class="col-7 col-pan">
+            <button class="blackbtn" onclick="dispiphone(1)"></button>
+            <button class="whitebtn " onclick="dispiphone(2)"></button>
+            <button class="redbtn" onclick="dispiphone(3)"></button>
+            <button class="bluebtn" onclick="dispiphone(4)"></button>
+            <button class="yellowbtn" onclick="dispiphone(5)"></button>
+            <button class="coralbtn" onclick="dispiphone(6)"></button>
+          </div>
+          <div class="col-5">
+            <button class="capacity" onclick="dispprice(64)">64 GB</button>
+            <button class="capacity" onclick="dispprice(128)">128 GB</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img class="modpic" src="src/1.png" alt="iPhoneXR" id="iphonecolor">
+          </div>
+          <div class="col-2">
+          </div>
+          <div class="col-4 price-panel">
+            <h2 id="pricing"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <script src="bend.js"></script>
+  </body>
+</html>
